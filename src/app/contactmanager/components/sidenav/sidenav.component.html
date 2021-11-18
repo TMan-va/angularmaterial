@@ -4,7 +4,7 @@
     <mat-toolbar color="primary">
       <!-- Contacts -->
     </mat-toolbar>
-    <mat-list role="list" >
+    <mat-list role="list" style="display:none;" >
       <mat-list-item  *ngFor="let script of scripts | async">
         <a matLine [routerLink]="['/contactmanager',script.id]">{{ script.id }}</a>
       </mat-list-item>
