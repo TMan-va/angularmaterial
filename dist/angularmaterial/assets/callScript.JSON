@@ -1,0 +1,735 @@
+[
+    {
+        "id": 1,
+        "script1":"COVID-19 Vaccine Interactive Scheduling Assistant ",
+        "script2":"This web-based tool was created by Dr. Embree in the Office of Public Health/Epidemiology for the Durham VA Health Care System to guide schedulers to schedule Veterans (and eligible spouses and caregivers) into the appropriate COVID-19 Vaccine Clinic.  Scheduling can be confusing because of changing guidance, vaccine availability, mix-and-match boosters, and considerations like whether the patient has a weakened immune system.  Please use this website to figure out how best to serve Veterans and schedule into the most appropriate clinic. ", 
+        "script3": "*Please remember that spouses, caregivers, CHAMPVA recipients, and unenrolled Veterans (those not eligible for full VHA benefits) can also be scheduled and vaccinated through VA under SAVE LIVES Act.  If they do not have a CPRS chart, they will either need to be registered through Eligibility or they can go to www.va.gov/covid-19-vaccine to get registered. * ",
+        "script4": "",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Start", "linkId":"2"}
+        ]
+    },
+    {
+        "id": 2,
+        "script1": 
+            "Thank you for calling the Durham VA Health Care System about COVID-19 vaccines. May I ask you a few questions to determine how I can best serve you?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Yes", "linkId":"4"},
+            {"id":  1, "text2" :  "No", "linkId":"3"}
+        ]
+    },
+    {
+        "id": 3,
+        "script1": 
+            "Thank you for that reply. The questions are designed to provide the best possible service to meet your vaccine needs. Please call us back if you would like more information.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 4,
+        "script1": "Have you received at least 1 dose of a COVID-19 vaccine already?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Yes", "linkId":"19"},
+            {"id":  1, "text2" :  "No", "linkId":"5"}
+        ]
+    },
+    {
+        "id": 5,
+        "script1": "I will be happy to schedule your COVID-19 vaccine. Which VA clinic is most convenient for you?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Durham Medical Center (Pfizer or J&J)", "linkId":"6"},
+            {"id":  1, "text2" :  "Raleigh Clinics (Moderna or J&J)", "linkId":"9"},
+            {"id":  2, "text2" :  "Greenville Health Care Center (Moderna or J&J)", "linkId":"12"},
+            {"id":  3, "text2" :  "Morehead City (J&J)", "linkId":"15"}
+        ]
+    },
+    {
+        "id": 6,
+        "script1": "I would be happy to schedule you at one of our Durham Clinics. Do you prefer a specific vaccine type?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Pfizer", "linkId":"7"},
+            {"id":  1, "text2" :  "Janssen", "linkId":"8"},
+            {"id":  2, "text2" :  "No preference", "linkId":"7"}
+        ]
+    },
+    {
+        "id": 7,
+        "script1": "Schedule the patient into DUR-COVID VACCINE-PFIZER clinic.",
+        "script2": "Ask them to present to the Atrium on the ground floor of the Medical Center (508 Fulton St in Durham) at their appointment time.",
+        "answers": 
+        [
+            {"id":  0, "text" : "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 8,
+        "script1": "Schedule the patient into DUR-COVID-VACCINE-JANSSEN clinic.",
+        "script2": "Ask them to present to the 1D Clinic on the 1st floor of the Medical Center (508 Fulton St in Durham) at their appointment time.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 9,
+        "script1": "I would be happy to schedule you at one of our Raleigh Clinics. Do you prefer a specific vaccine type?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Moderna", "linkId":"10"},
+            {"id":  1, "text2" :  "Janssen", "linkId":"11"},
+            {"id":  2, "text2" :  "No preference", "linkId":"10"}
+        ]
+    },
+    {
+        "id": 10,
+        "script1": "Schedule the patient into RL3-COVID-VACCINE MODERNA clinic.",
+        "script2": "Ask them to present to the Raleigh 3 Clinic at 2600 Atlantic Avenue, Suite 200 in Raleigh at their appointment time.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 11,
+        "script1": "Schedule the patient into RL1-COVID-VACCINE clinic.",
+        "script2": "Ask them to present to the Raleigh 1 Clinic at 3306 Sungate Blvd in Raleigh at their appointment time.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 12,
+        "script1": "I would be happy to schedule you at the Greenville Health Care Center. Do you prefer a specific vaccine type?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Moderna", "linkId":"13"},
+            {"id":  1, "text2" :  "Janssen", "linkId":"14"},
+            {"id":  2, "text2" :  "No preference", "linkId":"13"}
+        ]
+    },
+    {
+        "id": 13,
+        "script1": "Schedule the patient into GVL-COVID-MODERNA PACT clinic.",
+        "script2": "Ask them to present to the 1st floor PACT clinics in the Greenville HCC at 401 Moye Blvd in Greenville at their appointment time.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 14,
+        "script1": "Schedule the patient into GVL-COVID-JANSSEN 2ND FLOOR clinic.",
+        "script2": "Ask them to present to the 2nd floor Specialty Clinics in the Greenville HCC at 401 Moye Blvd in Greenville at their appointment time.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 15,
+        "script1": 
+            "I would be happy to schedule you at the Morehead City Clinic. Morehead City is offering the Janssen (J&J) vaccine. Will that be okay with you?",
+        "answers": 
+        [
+            {"id":  0, "text2":"Yes, (Janssen/J&J is acceptable)", "linkId":"16"},
+            {"id":  1, "text2":"No, (Patient prefers Pfizer or Moderna)", "linkId":"17"}
+        ]
+    },    
+    {
+        "id": 16,
+        "script1": "Schedule the patient into MOR-COVID VACCINE clinic.",
+        "script2": "Ask them to present to the Morehead City Clinic at 5420 US-70 in Morehead City at their appointment time.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 17,
+        "script1": 
+            "I understand you prefer to receive the Pfizer or Moderna vaccine.  Currently, we are only able to offer Janssen at the Morehead City Clinic. I can schedule you a Moderna vaccine in Greenville or you can find a nearby vaccine clinic by going to www.myspot.nc.gov to search by vaccine type in your area. ",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Prefers Moderna through Greenville VA", "linkId":"13"},
+            {"id":  1, "text2" :  "Prefers to find a community vaccine clinic", "linkId":"18"}
+        ]
+    },
+    {
+        "id": 18,
+        "script2": "You can find a community-based vaccine clinic in your area by going to www.myspot.nc.gov. Once you receive your vaccine, please send a copy of your vaccination card to your primary care team so your medical record can be updated. If you go to a clinic that is in-network for VA (e.g. CVS, Harris Teeter, Walmart), please present your Veteran ID so they can send your vaccine information to the VA. Please write down this phone number in case there are any issues with billing or records – 800-364-6331. Thank you and have a great day.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 19,
+        "script1": "That’s great! Which vaccine did you receive?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Pfizer", "linkId":"20"},
+            {"id":  1, "text2" :  "Moderna", "linkId":"47"},
+            {"id":  2, "text2" :  "Janssen (J&J)", "linkId":"58"},
+            {"id":  3, "text2" :  "Other (given outside the US)", "linkId":"73"}
+        ]
+    },
+    {
+        "id": 20,
+        "script1": "How many doses of Pfizer COVID-19 vaccine have you already received?",
+        "answers": 
+        [
+            {"id":  0, "text" :  "1", "linkId":"21"},
+            {"id":  1, "text" :  "2", "linkId":"24"},
+            {"id":  2, "text" :  "3", "linkId":"46"}
+        ]
+    },
+    {
+        "id": 21,
+        "script1": "I would be happy to schedule your second dose of Pfizer vaccine. We currently offer Pfizer at the Durham Medical Center. Will that be okay with you?",
+        "answers": 
+        [
+            {"id":  0, "text" :  "", "text2":"Yes, (Durham is acceptable) ", "linkId":"22"},
+            {"id":  1, "text" :  "",  "text2":"No, (Patient prefers a closer location)", "linkId":"23"}
+        ]
+    },
+    {
+        "id": 22,
+        "script1": "Schedule the patient into DUR-COVID VACCINE-PFIZER clinic 3 weeks after their first dose (no sooner than 17 days after the first dose; or the soonest available appointment if it has been more than 3 weeks).",
+        "script2": "Ask them to present to the Atrium on the ground floor of the Medical Center (508 Fulton St in Durham) at their appointment time and remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 23,
+        "script2": "I understand you prefer to get your second dose of Pfizer at a closer location.  Currently, we are only offering Pfizer at the Durham Medical Center. You can find a nearby Pfizer vaccine clinic by going to www.myspot.nc.gov to search by vaccine type in your area. Once you receive your vaccine, please send a copy of your vaccination card to your primary care team so your medical record can be updated. If you go to a clinic that is in-network for VA (e.g. CVS, Harris Teeter, Walmart), please present your Veteran ID so they can send your vaccine information to the VA. Please write down this phone number in case there are any issues with billing or records – 800-364-6331. Thank you and have a great day.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 24,
+        "script1": "Great! May I ask you a few questions to see if you qualify for a 3rd dose or booster shot?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Yes", "linkId":"25"},
+            {"id":  1, "text2" :  "No", "linkId":"3"}
+        ]
+    },
+    {
+        "id": 25,
+        "script1": "Thank you. 3rd doses for immunosuppressed patients are different from booster shots for patients with a normal immune system. Do you currently meet any of the following criteria for being moderately to severely immunosuppressed?",
+        "script2": "1. Active treatment for cancer",
+        "script3": "2. On immunosuppressive medications after organ or stem cell transplant",
+        "script4": "3. Had a stem cell transplant in the last 2 years ",
+        "script5": "4. Advanced or untreated HIV ", 
+        "script6": "5. Treatment with high-dose steroids (e.g. prednisone 20mg/day or higher), TNF blockers, or other immunosuppressive medications",
+        "answers": 
+        [
+            {"id":  0, "text" :  "", "text2":"Yes, (answers yes to at least 1 criteria)", "linkId":"26"},
+            {"id":  1, "text" :  "", "text2":"No, (answers no to all criteria)", "linkId":"27"},
+            {"id":  2, "text2" :  "Not sure", "linkId":"74"}
+        ]
+    },
+    {
+        "id": 26,
+        "script1": "Schedule the patient for their 3rd Pfizer dose into DUR-COVID VACCINE-PFIZER clinic 4 weeks after their second dose (no sooner than 24 days after their second dose; or the soonest available appointment if it has been more than 4 weeks).",
+        "script2": "Ask them to present to the Atrium on the ground floor of the Medical Center (508 Fulton St in Durham) at their appointment time and remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 27,
+        "script1": "Two doses of Pfizer/Moderna vaccine are very effective at preventing hospitalization and death from COVID-19. Certain high-risk groups are eligible for a booster shot. Let’s see if you meet at least one of the criteria.  Are you age 65 or older?",
+        "answers": 
+        [
+            {"id":  0, "text" :  "", "text2": "Yes, ( age 65+ )", "linkId":"28"},
+            {"id":  1, "text" :  "",  "text2": "No, ( age under 65 )", "linkId":"41"}
+        ]
+    },
+    {
+        "id": 28,
+        "script1": "You are eligible for a booster shot 6 months after your 2nd Pfizer/Moderna dose because of your age. Which VA clinic is most convenient for you to get your booster dose?",
+        "answers": 
+        [
+            {"id":  0, "text" :  " ","text2" :  "Durham Medical Center (Pfizer or J&J)", "linkId":"29"},
+            {"id":  1, "text" :  " ","text2" :  "Raleigh Clinics (Moderna or J&J)", "linkId":"32"},
+            {"id":  2, "text" :  " ","text2" :  "Greenville Health Care Center (Moderna or J&J)", "linkId":"35"},
+            {"id":  3, "text" :  " ","text2" :  "Morehead City (J&J)", "linkId":"38"}
+        ]
+    },
+    {
+        "id": 29,
+        "script1": "I would be happy to schedule you at the Durham Medical Center. Do you prefer the Pfizer or Janssen vaccine for your booster?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Pfizer", "linkId":"30"},
+            {"id":  1, "text2" :  "Janssen", "linkId":"31"},
+            {"id":  2, "text2" :  "No preference", "linkId":"30"}
+        ]
+    },
+    {
+        "id": 30,
+        "script1": "Schedule the patient into DUR-COVID VACCINE-PFIZER clinic at least 6 months after their second Pfizer/Moderna dose.",
+        "script2": "Ask them to present to the Atrium on the ground floor of the Medical Center (508 Fulton St in Durham) at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 31,
+        "script1": "Schedule the patient into DUR-COVID-VACCINE-JANSSEN clinic at least 6 months after their second Pfizer/Moderna dose.",
+        "script2": "Ask them to present to the 1D Clinic on the 1st floor of the Medical Center (508 Fulton St in Durham) at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 32,
+        "script1": "I would be happy to schedule you at one of our Raleigh Clinics. Do you prefer Moderna or Janssen for your booster?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Moderna", "linkId":"33"},
+            {"id":  1, "text2" :  "Janssen", "linkId":"34"},
+            {"id":  2, "text2" :  "No preference", "linkId":"33"}
+        ]
+    },
+    {
+        "id": 33,
+        "script1": "Schedule the patient into RL3-COVID-VACCINE-BOOSTER clinic at least 6 months after their second Pfizer/Moderna dose.",
+        "script2": "Ask them to present to the Raleigh 3 Clinic at 2600 Atlantic Avenue, Suite 200 in Raleigh at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 34,
+        "script1": "Schedule the patient into RL1-COVID-VACCINE clinic at least 6 months after their second Pfizer/Moderna dose.",
+        "script2": "Ask them to present to the Raleigh 1 Clinic at 3306 Sungate Blvd in Raleigh at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 35,
+        "script1": "I would be happy to schedule you at the Greenville Health Care Center. Do you prefer Moderna or Janssen for your booster?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Moderna", "linkId":"36"},
+            {"id":  1, "text2" :  "Janssen", "linkId":"37"},
+            {"id":  2, "text2" :  "No preference", "linkId":"36"}
+        ]
+    },
+    {
+        "id": 36,
+        "script1": "Schedule the patient into GVL-COVID-MODERNA BOOSTER clinic at least 6 months after their second Pfizer/Moderna dose.",
+        "script2": "Ask them to present to the 1st floor PACT clinics in the Greenville HCC at 401 Moye Blvd in Greenville at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 37,
+        "script1": "Schedule the patient into GVL-COVID-JANSSEN 2ND FLOOR clinic at least 6 months after their second Pfizer/Moderna dose.",
+        "script2": "Ask them to present to the 2nd floor Specialty Clinics in the Greenville HCC at 401 Moye Blvd in Greenville at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 38,
+        "script1": "I would be happy to schedule you at the Morehead City Clinic. Morehead City is offering the Janssen (J&J) vaccine. Will that be okay with you?",
+        "answers": 
+        [
+            {"id":  0, "text2": "Yes, (Janssen/J&J is acceptable)", "linkId":"39"},
+            {"id":  1, "text2": "No, (Patient prefers Pfizer or Moderna)", "linkId":"40"}
+        ]
+    },
+    {
+        "id": 39,
+        "script1": "Schedule the patient into MOR-COVID VACCINE clinic at least 6 months after their second Pfizer/Moderna dose.",
+        "script2": "Ask them to present to the Morehead City Clinic at 5420 US-70 in Morehead City at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 40,
+        "script1": "I understand you prefer to receive the Pfizer or Moderna booster.  Currently, we are only able to offer Janssen at the Morehead City Clinic. I can schedule you a Moderna vaccine in Greenville or you can find a nearby vaccine clinic by going to www.myspot.nc.gov to search by vaccine type in your area.",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Prefers Moderna through Greenville VA", "linkId":"36"},
+            {"id":  1, "text2" :  "Prefers to find a community vaccine clinic", "linkId":"18"}
+        ]
+    },
+    {
+        "id": 41,
+        "script1": "Do you have any underlying health conditions?",
+        "script2": "At least one of the following:",
+        "script10": "Overweight or obesity",
+        "script11": "Diabetes",
+        "script12": "Heart disease",
+        "script13": "Cancer",
+        "script14": "Chronic lung disease",
+        "script15": "Chronic kidney disease",
+        "script16": "Chronic liver disease",
+        "script17": "HIV infection",
+        "script18": "Smoking (current or former)",
+        "script19": "Immunocompromised (weakened immune system)",
+        "script20": "Mental health conditions (e.g. depression, schizophrenia)",
+        "script21": "Pregnancy",
+        "script22": "Stroke",
+        "script23": "Dementia",
+        "script24": "Neurologic condition",
+        "script25": "Substance use disorders",
+        "script26": "Solid organ or stem cell transplant",
+        "script27": "Sickle cell disease or thalassemia",
+        "script28": "Tuberculosis",
+        "script29": "Down syndrome",
+
+        "answers": 
+        [
+            {"id":  0, "text2": "Yes, at least 1 medical condition", "linkId":"42"},
+            {"id":  1, "text2": "No, none of the above", "linkId":"43"}
+        ]
+    },
+    {
+        "id": 42,
+        "script1": "You are eligible for a booster shot 6 months after your 2nd Pfizer/Moderna dose because of your underlying medical condition. Which VA clinic is most convenient for you to get your booster dose?",
+        "answers": 
+        [
+            {"id":  0, "text" :  " ","text2" :  "Durham Medical Center (Pfizer or J&J)", "linkId":"29"},
+            {"id":  1, "text" :  " ","text2" :  "Raleigh Clinics (Moderna or J&J)", "linkId":"32"},
+            {"id":  2, "text" :  " ","text2" :  "Greenville Health Care Center (Moderna or J&J)", "linkId":"35"},
+            {"id":  3, "text" :  " ","text2" :  "Morehead City (J&J)", "linkId":"38"}
+        ]
+    },
+    {
+        "id": 43,
+        "script1": "Do you live or work in a high-risk setting?",
+        "script2": "At least one of the following:",
+        "script3": "1. Frontline worker (e.g. health care worker, first responder, grocery worker, childcare provider)",
+        "script4": "2. Lives in a long-term care facility (or other group housing)",
+        "answers": 
+        [
+            {"id":  0, "text2": "Yes, high-risk work or living facility", "linkId":"44"},
+            {"id":  1, "text2": "No", "linkId":"45"}
+        ]
+    },
+    {
+        "id": 44,
+        "script1": "You are eligible for a booster shot 6 months after your 2nd Pfizer/Moderna dose because of your job or living situation. Which VA clinic is most convenient for you to get your booster dose?",
+        "answers": 
+        [
+            {"id":  0, "text" :  " ","text2" :  "Durham Medical Center (Pfizer or J&J)", "linkId":"29"},
+            {"id":  1, "text" :  " ","text2" :  "Raleigh Clinics (Moderna or J&J)", "linkId":"32"},
+            {"id":  2, "text" :  " ","text2" :  "Greenville Health Care Center (Moderna or J&J)", "linkId":"35"},
+            {"id":  3, "text" :  " ","text2" :  "Morehead City (J&J)", "linkId":"38"}
+        ]
+    },
+    {
+        "id": 45,
+        "script1": "Thank you",
+        "script2": "Thank you for your interest in the COVID-19 booster shots. Currently, those who received Pfizer or Moderna for their first two doses are only eligible for a booster if they are age 65 or older, have underlying health conditions, or live or work in a high-risk setting. Please be reassured that the original two doses you received are highly protective against hospitalization and death from COVID-19. Thank you for getting vaccinated and be sure to check out VA’s website and social media for any additional updates regarding booster vaccines. Have a great day!",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 46,
+        "script1": "Thank you",
+        "script2": "Thank you for calling about COVID-19 vaccines. Three doses is currently the maximum number of recommended doses for most patients at this time. Thank you for doing your part to protect yourself and others during the COVID-19 pandemic. Be sure to check out the Durham VA website and social media for any additional updates regarding COVID-19 vaccines. Have a great day!",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 47,
+        "script1": "How many doses of Moderna COVID-19 vaccine have you already received?",
+        "answers": 
+        [
+            {"id":  0, "text" :  "1", "linkId":"48"},
+            {"id":  1, "text" :  "2", "linkId":"52"},
+            {"id":  2, "text" :  "3", "linkId":"46"}
+        ]
+    },
+    {
+        "id": 48,
+        "script1": "I would be happy to schedule your second dose of Moderna vaccine. We currently offer Moderna at the Raleigh 3 Clinic and Greenville Health Care Center. Will one of those locations work for you?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Raleigh 3 Clinic", "linkId":"49"},
+            {"id":  1, "text2" :  "Greenville Health Care Center", "linkId":"50"},
+            {"id":  2, "text2" :  "No (Patient prefers a different location)", "linkId":"51"}
+        ]
+    },
+    {
+        "id": 49,
+        "script1": "Schedule the patient into RL3-COVID-VACCINE MODERNA clinic at least 4 weeks after their first Moderna dose (no sooner than 24 days after the first dose; or the soonest available appointment if it has been more than 4 weeks).",
+        "script2": "Ask them to present to the Raleigh 3 Clinic at 2600 Atlantic Avenue, Suite 200 in Raleigh at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 50,
+        "script1": "Schedule the patient into GVL-COVID-MODERNA PACT clinic at least 4 weeks after their first Moderna dose (no sooner than 24 days after the first dose; or the soonest available appointment if it has been more than 4 weeks).",
+        "script2": "Ask them to present to the Raleigh 3 Clinic at 2600 Atlantic Avenue, Suite 200 in Raleigh at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 51,
+        "script2": "I understand you prefer to get your second dose of Moderna at a closer location.  Currently, we are only offering Moderna in Raleigh and Greenville. You can find a nearby Moderna vaccine clinic by going to www.myspot.nc.gov to search by vaccine type in your area. Once you receive your vaccine, please send a copy of your vaccination card to your primary care team so your medical record can be updated. If you go to a clinic that is in-network for VA (e.g. CVS, Harris Teeter, Walmart), please present your Veteran ID so they can send your vaccine information to the VA. Please write down this phone number in case there are any issues with billing or records – 800-364-6331. Thank you and have a great day.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 52,
+        "script1": "Great! May I ask you a few questions to see if you qualify for a 3rd dose or booster shot?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Yes", "linkId":"53"},
+            {"id":  1, "text2" :  "No", "linkId":"3"}
+        ]
+    },
+    {
+        "id": 53,
+        "script1": "Thank you. 3rd doses for immunosuppressed patients are different from booster shots for patients with a normal immune system. Do you currently meet any of the following criteria for being moderately to severely immunosuppressed?",
+        "script2": "1. Active treatment for cancer", 
+        "script3": "2. On immunosuppressive medications after organ or stem cell transplant", 
+        "script4": "3. Had a stem cell transplant in the last 2 years", 
+        "script5": "4. Advanced or untreated HIV", 
+        "script6": "5. Treatment with high-dose steroids (e.g. prednisone 20mg/day or higher), TNF blockers, or other immunosuppressive medications",
+        "answers": 
+        [
+            {"id":  0, "text" :  "", "text2":"Yes, (answers yes to at least 1 criteria)", "linkId":"54"},
+            {"id":  1, "text" :  "", "text2":"No, (answers no to all criteria)", "linkId":"27"},
+            {"id":  2, "text2" :  "Not sure", "linkId":"74"}
+        ]
+    },
+    {
+        "id": 54,
+        "script1": "I would be happy to schedule your 3rd dose of Moderna vaccine which you are eligible for because you have a weakened immune system.  Third doses for immunocompromised patients can be scheduled 28 days after the second dose. We currently offer Moderna at the Raleigh 3 Clinic and Greenville Health Care Center. Will one of those locations work for you?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Raleigh 3 Clinic", "linkId":"55"},
+            {"id":  1, "text2" :  "Greenville Health Care Center", "linkId":"56"},
+            {"id":  2, "text2" :  "No (Patient prefers a different location)", "linkId":"57"}
+        ]
+    },
+    {
+        "id": 55,
+        "script1": "Schedule the patient into RL3-COVID-VACCINE MODERNA clinic at least 4 weeks after their second Moderna dose (no sooner than 24 days after the second dose; or the soonest available appointment if it has been more than 4 weeks).",
+        "script2": "Ask them to present to the Raleigh 3 Clinic at 2600 Atlantic Avenue, Suite 200 in Raleigh at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 56,
+        "script1": "Schedule the patient into GVL-COVID-MODERNA PACT clinic at least 4 weeks after their second Moderna dose (no sooner than 24 days after the second dose; or the soonest available appointment if it has been more than 4 weeks).",
+        "script2": "Ask them to present to the Raleigh 3 Clinic at 2600 Atlantic Avenue, Suite 200 in Raleigh at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 57,
+        "script2": "I understand you prefer to get your third dose of Moderna at a closer location.  Currently, we are only offering Moderna in Raleigh and Greenville. You can find a nearby Moderna vaccine clinic by going to www.myspot.nc.gov to search by vaccine type in your area. Once you receive your vaccine, please send a copy of your vaccination card to your primary care team so your medical record can be updated. If you go to a clinic that is in-network for VA (e.g. CVS, Harris Teeter, Walmart), please present your Veteran ID so they can send your vaccine information to the VA. Please write down this phone number in case there are any issues with billing or records – 800-364-6331. Thank you and have a great day.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 58,
+        "script1": "How many doses of Janssen (J&J) COVID-19 vaccine have you already received?",
+        "answers": 
+        [
+            {"id":  0, "text" :  "1", "linkId":"59"},
+            {"id":  1, "text" :  "2", "linkId":"72"}
+        ]
+    },
+    {
+        "id": 59,
+        "script1": "You are eligible for a booster shot 2 months after your first Janssen (J&J) vaccine. Which VA clinic is most convenient for you to get your booster dose?",
+        "answers": 
+        [
+            {"id":  0, "text" :  " ","text2" :  "Durham Medical Center (Pfizer or J&J)", "linkId":"60"},
+            {"id":  1, "text" :  " ","text2" :  "Raleigh Clinics (Moderna or J&J)", "linkId":"63"},
+            {"id":  2, "text" :  " ","text2" :  "Greenville Health Care Center (Moderna or J&J)", "linkId":"66"},
+            {"id":  3, "text" :  " ","text2" :  "Morehead City (J&J)", "linkId":"69"}
+        ]
+    },
+    {
+        "id": 60,
+        "script1": "I would be happy to schedule you at the Durham Medical Center. Do you prefer the Pfizer or Janssen vaccine for your booster?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Pfizer", "linkId":"61"},
+            {"id":  1, "text2" :  "Janssen", "linkId":"62"},
+            {"id":  2, "text2" :  "No preference", "linkId":"61"}
+        ]
+    },
+    {
+        "id": 61,
+        "script1": "Schedule the patient into DUR-COVID VACCINE-PFIZER clinic at least 2 months after their original Janssen (J&J) dose.",
+        "script2": "Ask them to present to the Atrium on the ground floor of the Medical Center (508 Fulton St in Durham) at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 62,
+        "script1": "Schedule the patient into DUR-COVID-VACCINE-JANSSEN clinic at least 2 months after their original Janssen (J&J) dose.",
+        "script2": "Ask them to present to the 1D Clinic on the 1st floor of the Medical Center (508 Fulton St in Durham) at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 63,
+        "script1": "I would be happy to schedule you at one of our Raleigh Clinics. Do you prefer Moderna or Janssen for your booster?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Moderna", "linkId":"64"},
+            {"id":  1, "text2" :  "Janssen", "linkId":"65"},
+            {"id":  2, "text2" :  "No preference", "linkId":"64"}
+        ]
+    },
+    {
+        "id": 64,
+        "script1": "Schedule the patient into RL3-COVID-VACCINE-BOOSTER clinic at least 2 months after their original Janssen (J&J) dose.",
+        "script2": "Ask them to present to the Raleigh 3 Clinic at 2600 Atlantic Avenue, Suite 200 in Raleigh at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 65,
+        "script1": "Schedule the patient into RL1-COVID-VACCINE clinic at least 2 months after their original Janssen (J&J) dose.",
+        "script2": "Ask them to present to the Raleigh 1 Clinic at 3306 Sungate Blvd in Raleigh at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 66,
+        "script1": "I would be happy to schedule you at the Greenville Health Care Center. Do you prefer Moderna or Janssen for your booster?",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Moderna", "linkId":"67"},
+            {"id":  1, "text2" :  "Janssen", "linkId":"68"},
+            {"id":  2, "text2" :  "No preference", "linkId":"67"}
+        ]
+    },
+    {
+        "id": 67,
+        "script1": "Schedule the patient into GVL-COVID-MODERNA BOOSTER clinic at least 2 months after their original Janssen (J&J) dose.",
+        "script2": "Ask them to present to the 1st floor PACT clinics in the Greenville HCC at 401 Moye Blvd in Greenville at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 68,
+        "script1": "Schedule the patient into GVL-COVID-JANSSEN 2ND FLOOR clinic at least 2 months after their original Janssen (J&J) dose.",
+        "script2": "Ask them to present to the 2nd floor Specialty Clinics in the Greenville HCC at 401 Moye Blvd in Greenville at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 69,
+        "script1": 
+            "I would be happy to schedule you at the Morehead City Clinic. Morehead City is offering the Janssen (J&J) vaccine. Will that be okay with you?",
+        "answers": 
+        [
+            {"id":  0, "text" :  "", "text2":"Yes, (Janssen/J&J is acceptable)", "linkId":"70"},
+            {"id":  1, "text" :  "", "text2":"No, (Patient prefers Pfizer or Moderna)", "linkId":"71"}
+        ]
+    },
+    {
+        "id": 70,
+        "script1": "Schedule the patient into MOR-COVID VACCINE clinic at least 2 months after their original Janssen (J&J) dose.",
+        "script2": "Ask them to present to the Morehead City Clinic at 5420 US-70 in Morehead City at their appointment time. Remind them to bring their vaccine card with them.",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 71,
+        "script1": "I understand you prefer to receive the Pfizer or Moderna booster.  Currently, we are only able to offer Janssen at the Morehead City Clinic. I can schedule you a Moderna vaccine in Greenville or you can find a nearby vaccine clinic by going to www.myspot.nc.gov to search by vaccine type in your area.",
+        "answers": 
+        [
+            {"id":  0, "text2" :  "Prefers Moderna through Greenville VA", "linkId":"67"},
+            {"id":  1, "text2" :  "Prefers to find a community vaccine clinic", "linkId":"18"}
+        ]
+    },
+    {
+        "id": 72,
+        "script1": "Thank you",
+        "script2": "Thank you for calling about COVID-19 vaccines. Two doses is currently the maximum number of recommended doses for those who initially received the Janssen (J&J) vaccine. Thank you for doing your part to protect yourself and others during the COVID-19 pandemic. Be sure to check out the Durham VA website and social media for any additional updates regarding COVID-19 vaccines. Have a great day!",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 73,
+        "script1": "Thank you for getting vaccinated",
+        "script2": "Please contact your health care provider to determine whether you qualify for additional COVID-19 vaccine doses at this time.  Once your provider places an order to schedule in a specific clinic, we will be able to assist you with scheduling. Thank you for getting vaccinated and have a great day!",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    },
+    {
+        "id": 74,
+        "script1": "Contact your provider",
+        "script2": "Please contact your health care provider to determine whether you meet criteria for being immunocompromised as this may change the timing and dose of your next vaccine. Thank you and have a great day!",
+        "answers": 
+        [
+            {"id":  0, "text" :  "Home", "linkId":"1"}
+        ]
+    }
+
+
+
+]

@@ -1,0 +1,59 @@
+<div *ngIf="!script">
+    <mat-spinner></mat-spinner>
+</div>
+<mat-card *ngIf="script">
+  <h1>{{script.script1}}</h1>
+  <h2 *ngIf="script.script2">{{script.script2}} </h2>
+  <h2 *ngIf="script.script3">{{script.script3}}</h2>
+  <h2 *ngIf="script.script4">{{script.script4}}</h2>
+  <h2 *ngIf="script.script5">{{script.script5}}</h2>
+  <h2 *ngIf="script.script6">{{script.script6}}</h2>
+  <div [ngIF]="[41].includes(script.id)">
+      <div style="display:inline-table;">
+        <h3>{{script.script10}}</h3>
+        <h3>{{script.script11}}</h3>
+        <h3>{{script.script12}}</h3>
+        <h3>{{script.script13}}</h3>
+        <h3>{{script.script14}}</h3>
+        <h3>{{script.script15}}</h3>
+        <h3>{{script.script16}}</h3>
+        <h3>{{script.script17}}</h3>
+        <h3>{{script.script18}}</h3>
+        <h3>{{script.script19}}</h3>
+      </div>
+      <div style="display: inline-table; width: 40px;">
+    </div>
+      <div style="display: inline-table;">
+        <h3>{{script.script20}}</h3>
+        <h3>{{script.script21}}</h3>
+        <h3>{{script.script22}}</h3>
+        <h3>{{script.script23}}</h3>
+        <h3>{{script.script24}}</h3>
+        <h3>{{script.script25}}</h3>
+        <h3>{{script.script26}}</h3>
+        <h3>{{script.script27}}</h3>
+        <h3>{{script.script28}}</h3>
+        <h3>{{script.script29}}</h3>
+      </div>
+  </div>
+  <div class="clearfix" class="flex-container-b" *ngFor="let answer of script.answers">
+    <div class="flex-item-b" [routerLink]="['/contactmanager', answer.linkId]">
+        {{ answer.text }}
+          <ng-template [ngIf]="[2,4,5,6,9,12,15,17,19,24,25,27,28,29,21,32,35,38,40,41,42,43,44,48,52,53,54,59,60,63,66,69,71].includes(script.id)" [ngIfElse]="elseBlock">
+              <p
+                  style="line-height: 25px; color: white; font-size: 0.5em;">
+                  <br />
+                  {{answer.text2}}
+              </p>
+          </ng-template>
+
+              <ng-template #elseBlock>
+                  <p style="line-height: 25px; color: white; font-size: 0.5em;">
+                      {{answer.text2}}
+                  </p>          
+              </ng-template>
+      </div>
+</div>
+</mat-card>
+
+
